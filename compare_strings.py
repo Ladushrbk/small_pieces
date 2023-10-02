@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+"""There will be explanation"""
 import re
 def compare_strings(string1, string2):
   #Convert both strings to lowercase 
