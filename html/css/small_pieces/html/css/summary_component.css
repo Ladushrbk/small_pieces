@@ -1,3 +1,29 @@
-* {
-    font-family: Hanken Grotesk;
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    width: 368px;
+    height: 512px;
+    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    border-radius: 32px;
+    text-align: center;
+    margin-right: -20px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen ;
+    border-radius: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.white{
+    background-color: red;
+    width: 368px;
+    height: 512px;
 }
